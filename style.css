@@ -1,0 +1,110 @@
+body {
+    font-size: 14px;
+    color: #333;
+    line-height: normal;
+    font-family: sans-serif;
+    padding: 20px;
+}
+
+table {
+    width: 80%;
+    margin: 20px auto;
+    border-collapse: collapse;
+}
+
+table th,
+table td {
+    text-align: left;
+    padding: 10px;
+}
+
+table tr {
+    border-bottom: 1px solid #dedede;
+}
+
+input:focus {
+    border-color: #4C71FE ;
+}
+
+.cursor-pointer {
+    cursor: pointer;
+}
+
+.btn {
+    min-height: 30px;
+    padding: 10px 20px;
+    color: #fff;
+    box-sizing: border-box;
+    border-radius: 5px;
+    background: #4C71FE;
+    border: none;
+}
+
+.btn-big {
+    font-size: 18px;
+    font-weight: 600;
+    text-shadow:  -1px #000;
+}
+
+.mr1 {
+    margin-right: 10px;
+}
+
+.my1 {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.overlay {
+    position: fixed;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    background: rgba(0,0,0,0.4);
+    display: none;
+}
+
+.overlay .modal-box {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.overlay .cross {
+    width: 300px;
+    font-size: 20px;
+    font-weight: 600;
+    color: #999;
+    margin-bottom: -30px;
+    z-index: 2;
+    text-align: right;
+}
+
+.overlay .cross span {
+    font-family: cursive;
+    display: inline-block;
+    cursor: pointer;
+}
+
+.overlay .modal {
+    background: #fff;
+    border: 1px solid #dedede;
+    border-radius: 5px;
+    padding: 25px;
+}
+
+.modal input {
+    height: 20px;
+    padding: 10px;
+    border: 1px solid #dadada;
+    border-radius: 5px;
+    margin: 10px 0;
+    width: 200px;
+}
+
+.modal button {
+    margin: 10px 0 0 0;
+}
